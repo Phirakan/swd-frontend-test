@@ -1,27 +1,45 @@
 {
   "name": "swd-frontend-test",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "@types/node": "^16.18.59",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "antd": "^5.11.1",
+    "i18next": "^23.6.0",
+    "next": "^15.4.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^13.5.0",
+    "react-redux": "^8.1.3",
+    "react-scripts": "5.0.1",
+    "sass": "^1.69.5",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
-  "dependencies": {
-    "antd": "^5.20.6",
-    "i18next": "^23.15.1",
-    "next": "14.2.12",
-    "react": "^18",
-    "react-dom": "^18",
-    "redux-toolkit": "^1.1.2"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.12",
-    "typescript": "^5"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
