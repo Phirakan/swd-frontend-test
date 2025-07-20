@@ -6,6 +6,7 @@
 ```bash
 git clone https://github.com/Phirakan/swd-frontend-test.git
 cd swd-frontend-test
+code .
 ```
 2.Install dependencies:
 ```bash
